@@ -20,7 +20,7 @@
       </table>
     </form>
 
-    <h1 id="sonuc"></h1>
+    <h1 id="sonucc"></h1>
 
     <script>
       function gonder(event) {
@@ -31,10 +31,10 @@
         const tahmin = parseInt(data.tahmin);
         const rastgele = Math.floor(Math.random() * 10) + 1;
         if (tahmin == rastgele) {
-          document.getElementById("sonuc").textContent = "Tebrikler, bildiniz!";
+          document.getElementById("sonucc").textContent = "Tebrikler, bildiniz!";
         } else {
           document.getElementById(
-            "sonuc"
+            "sonucc"
           ).textContent = `Üzgünüm, doğru cevap ${rastgele}`;
         }
       }
